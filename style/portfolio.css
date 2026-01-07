@@ -3,18 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 .font-work-sans{
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
 }
 #hero-section{
     background: url(../images/banner/banner2.png);
-    width: 1600px;
+    width: 100%;
     height: 808px;
     display: flex;
-    justify-content: flex-end;
-    /* align-items: center; */
-    /* align-items: left; */
+    /* justify-content: flex-end; */
 }
 .main-content{
     /* background-color: blue; */
@@ -44,4 +45,143 @@
     background-color: #F15B22;
     cursor: pointer;
     border: none;
+}
+#parent-fail{
+    /* background-color: blue; */
+    display: flex;
+    width: 1072px;
+    height: 723px;
+    gap: 87px;
+    margin: 130px 322px 130px 206px;
+}
+#parent-fail .fail-text{
+    width: 416px;
+    height: 400px;
+    margin-top: 239px;
+    margin-bottom: 84px;
+    /* padding-right: 0; */
+    /* background-color: red; */
+}
+.fail-text h3{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.fail-text p{
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.my-plan h3{
+    color: #151414;
+    font-size: 40px;
+    text-align: center;
+}
+#plan-item{
+    display: flex;
+    max-width: 1141px;
+    /* background-color: blue; */
+    margin: 0 auto;
+    gap: 86px;
+    justify-content: space-around;
+}
+#plan-item .icon{
+    margin-top: 50px;
+    /* background-color: orange; */
+    /* width: 214px; */
+    height: 197px;
+    text-align: center;
+}
+#plan-item h4{
+    font-size: 30px;
+    color: #151414;
+}
+#plan-item p{
+    font-size: 25px;
+    color: #737272;
+}
+#positive-section{
+    max-width: 1140px;
+    height: 300px;
+    /* background-color: blue; */
+    background: url(../images/watch.png);
+    margin: 124px 230px 130px 230px;
+    /* align-items: center; */
+}
+ #positive-section .section-text{
+    width: 459px;
+    height: 182px;
+    /* margin-left: 64px; */
+    margin: 59px 617px 59px 64px;
+}
+#positive-section h3{
+    font-size: 40px;
+    margin-top: 59px;
+    color: #FFFFFF;
+}
+#positive-section .call-btn{
+    margin-top: 24px;
+    padding: 20px 36px;
+    border: none;
+    color: #F15B22;
+    background-color: FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+#footer-section{
+    display: flex;
+    gap: 331px;
+    background-color: #151414;
+    width: 1600px;
+    height: 517px;
+}
+#footer-section .future-content{
+    width: 485px;
+    height: 317px;
+    /* background-color: red; */
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-left: 230px;
+}
+.future-content h3{
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.future-content p{
+    margin-bottom: 24px;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+.subs-area{
+    /* background-color: red; */
+    width: 325px;
+    height: 204px;
+    margin-top: 130px;
+}
+.subs-area h4{
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+.subs-area .email{
+    padding: 16px 30px;
+    width: 325px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    color: #F3F3F3;
+    margin-bottom: 16px;
+    background-color: FFFFFF;
+}
+.subs-area .subs-btn{
+    color: #F15B22;
+    padding: 20px 36px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #FFFFFF;
 }
