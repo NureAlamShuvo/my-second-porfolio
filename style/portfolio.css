@@ -12,17 +12,16 @@ body{
 }
 #hero-section{
     background: url(../images/banner/banner2.png);
-    width: 100%;
+    width: 1600px;
     height: 808px;
     display: flex;
-    /* justify-content: flex-end; */
+    justify-content: flex-end;
 }
-.main-content{
+#hero-section .main-content{
     /* background-color: blue; */
     width: 525px;
     height: 522px;
     margin: 216px 230px 365px 845px;
-    /* align-items: ; */
     text-align: right;
 }
 .main-content h2{
