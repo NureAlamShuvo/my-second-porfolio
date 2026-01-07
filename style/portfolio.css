@@ -15,7 +15,7 @@ body{
     width: 1600px;
     height: 808px;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 }
 #hero-section .main-content{
     /* background-color: blue; */
